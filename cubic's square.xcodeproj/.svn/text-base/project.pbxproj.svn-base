@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		C00A6B17103777D400AC40E3 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = C00A6B0C103777D400AC40E3 /* TileView.m */; };
+		C00A6B18103777D400AC40E3 /* SolvedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00A6B0E103777D400AC40E3 /* SolvedViewController.m */; };
+		C00A6B19103777D400AC40E3 /* CameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C00A6B0F103777D400AC40E3 /* CameraAppDelegate.m */; };
+		C00A6B1A103777D400AC40E3 /* TouchUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = C00A6B12103777D400AC40E3 /* TouchUIView.m */; };
+		C00A6B1C103777D400AC40E3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00A6B16103777D400AC40E3 /* MainViewController.m */; };
+		C00A6B25103777EC00AC40E3 /* SolvedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00A6B1F103777EC00AC40E3 /* SolvedViewController.xib */; };
+		C00A6B27103777EC00AC40E3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00A6B21103777EC00AC40E3 /* MainViewController.xib */; };
+		C00A6B28103777EC00AC40E3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00A6B22103777EC00AC40E3 /* MainWindow.xib */; };
+		C021690D1038D78300090DF9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C021690B1038D78300090DF9 /* SettingsViewController.m */; };
+		C021690E1038D78300090DF9 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C021690C1038D78300090DF9 /* SettingsViewController.xib */; };
+		C0320826105B066000689B5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0320825105B066000689B5D /* Default.png */; };
+		C04AF651103B44B300C8AF70 /* SizeSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C04AF64F103B44B300C8AF70 /* SizeSetting.m */; };
+		C04AF652103B44B300C8AF70 /* SizeSetting.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04AF650103B44B300C8AF70 /* SizeSetting.xib */; };
+		C07FDB5010582A9500CB4E75 /* tilespinnericon.png in Resources */ = {isa = PBXBuildFile; fileRef = C07FDB4F10582A9500CB4E75 /* tilespinnericon.png */; };
+		C08D2BF7103B5CFE00847ACD /* helpview.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D2BF5103B5CFE00847ACD /* helpview.m */; };
+		C08D2BF8103B5CFE00847ACD /* helpview.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08D2BF6103B5CFE00847ACD /* helpview.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* CubicSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubicSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* cubic_s_square_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cubic_s_square_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* cubic_s_square-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cubic_s_square-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C00A6B0B103777D400AC40E3 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		C00A6B0C103777D400AC40E3 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
+		C00A6B0D103777D400AC40E3 /* SolvedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolvedViewController.h; sourceTree = "<group>"; };
+		C00A6B0E103777D400AC40E3 /* SolvedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolvedViewController.m; sourceTree = "<group>"; };
+		C00A6B0F103777D400AC40E3 /* CameraAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraAppDelegate.m; sourceTree = "<group>"; };
+		C00A6B10103777D400AC40E3 /* CameraAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraAppDelegate.h; sourceTree = "<group>"; };
+		C00A6B11103777D400AC40E3 /* TouchUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchUIView.h; sourceTree = "<group>"; };
+		C00A6B12103777D400AC40E3 /* TouchUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchUIView.m; sourceTree = "<group>"; };
+		C00A6B15103777D400AC40E3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C00A6B16103777D400AC40E3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C00A6B1F103777EC00AC40E3 /* SolvedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SolvedViewController.xib; sourceTree = "<group>"; };
+		C00A6B21103777EC00AC40E3 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C00A6B22103777EC00AC40E3 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C021690A1038D78300090DF9 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C021690B1038D78300090DF9 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C021690C1038D78300090DF9 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		C0320825105B066000689B5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C04AF64E103B44B300C8AF70 /* SizeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeSetting.h; sourceTree = "<group>"; };
+		C04AF64F103B44B300C8AF70 /* SizeSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeSetting.m; sourceTree = "<group>"; };
+		C04AF650103B44B300C8AF70 /* SizeSetting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SizeSetting.xib; sourceTree = "<group>"; };
+		C07930F6103DED1E00EC579A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C07FDB4F10582A9500CB4E75 /* tilespinnericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tilespinnericon.png; sourceTree = "<group>"; };
+		C08D2BF4103B5CFE00847ACD /* helpview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpview.h; sourceTree = "<group>"; };
+		C08D2BF5103B5CFE00847ACD /* helpview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpview.m; sourceTree = "<group>"; };
+		C08D2BF6103B5CFE00847ACD /* helpview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = helpview.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C00A6B0B103777D400AC40E3 /* TileView.h */,
+				C00A6B0C103777D400AC40E3 /* TileView.m */,
+				C00A6B0D103777D400AC40E3 /* SolvedViewController.h */,
+				C00A6B0E103777D400AC40E3 /* SolvedViewController.m */,
+				C00A6B0F103777D400AC40E3 /* CameraAppDelegate.m */,
+				C00A6B10103777D400AC40E3 /* CameraAppDelegate.h */,
+				C00A6B11103777D400AC40E3 /* TouchUIView.h */,
+				C00A6B12103777D400AC40E3 /* TouchUIView.m */,
+				C00A6B15103777D400AC40E3 /* MainViewController.h */,
+				C00A6B16103777D400AC40E3 /* MainViewController.m */,
+				C021690A1038D78300090DF9 /* SettingsViewController.h */,
+				C021690B1038D78300090DF9 /* SettingsViewController.m */,
+				C021690C1038D78300090DF9 /* SettingsViewController.xib */,
+				C04AF64E103B44B300C8AF70 /* SizeSetting.h */,
+				C04AF64F103B44B300C8AF70 /* SizeSetting.m */,
+				C04AF650103B44B300C8AF70 /* SizeSetting.xib */,
+				C08D2BF4103B5CFE00847ACD /* helpview.h */,
+				C08D2BF5103B5CFE00847ACD /* helpview.m */,
+				C08D2BF6103B5CFE00847ACD /* helpview.xib */,
+				C07930F6103DED1E00EC579A /* Constants.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CubicSquare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* cubic_s_square_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0320825105B066000689B5D /* Default.png */,
+				C07FDB4F10582A9500CB4E75 /* tilespinnericon.png */,
+				C00A6B1F103777EC00AC40E3 /* SolvedViewController.xib */,
+				C00A6B21103777EC00AC40E3 /* MainViewController.xib */,
+				C00A6B22103777EC00AC40E3 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* cubic_s_square-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* cubic's square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "cubic's square" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cubic's square";
+			productName = "cubic's square";
+			productReference = 1D6058910D05DD3D006BFB54 /* CubicSquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cubic's square" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* cubic's square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00A6B25103777EC00AC40E3 /* SolvedViewController.xib in Resources */,
+				C00A6B27103777EC00AC40E3 /* MainViewController.xib in Resources */,
+				C00A6B28103777EC00AC40E3 /* MainWindow.xib in Resources */,
+				C021690E1038D78300090DF9 /* SettingsViewController.xib in Resources */,
+				C04AF652103B44B300C8AF70 /* SizeSetting.xib in Resources */,
+				C08D2BF8103B5CFE00847ACD /* helpview.xib in Resources */,
+				C07FDB5010582A9500CB4E75 /* tilespinnericon.png in Resources */,
+				C0320826105B066000689B5D /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				C00A6B17103777D400AC40E3 /* TileView.m in Sources */,
+				C00A6B18103777D400AC40E3 /* SolvedViewController.m in Sources */,
+				C00A6B19103777D400AC40E3 /* CameraAppDelegate.m in Sources */,
+				C00A6B1A103777D400AC40E3 /* TouchUIView.m in Sources */,
+				C00A6B1C103777D400AC40E3 /* MainViewController.m in Sources */,
+				C021690D1038D78300090DF9 /* SettingsViewController.m in Sources */,
+				C04AF651103B44B300C8AF70 /* SizeSetting.m in Sources */,
+				C08D2BF7103B5CFE00847ACD /* helpview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = cubic_s_square_Prefix.pch;
+				INFOPLIST_FILE = "cubic_s_square-Info.plist";
+				PRODUCT_NAME = CubicSquare;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = cubic_s_square_Prefix.pch;
+				INFOPLIST_FILE = "cubic_s_square-Info.plist";
+				PRODUCT_NAME = CubicSquare;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "cubic's square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cubic's square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
